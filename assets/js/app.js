@@ -18,7 +18,7 @@
 			usesTitle: 'What can you share with {app}?',
 			use1: '<strong>Sensitive material:</strong> Contracts, financial documents, credentials, and personal files.',
 			use2: '<strong>Any format:</strong> Images, PDFs, archives, audio, video, and multiple files packaged as a ZIP.',
-			use3: '<strong>Direct transfer:</strong> File bytes travel peer-to-peer and are not stored by WordPress.',
+			use3: '<strong>Direct transfer:</strong> File bytes travel peer-to-peer and are not stored by the {app} app.',
 			prepare: 'Prepare your files to send', dropLabel: 'Drag files here or choose them below (1.5 GB maximum):',
 			dropPrompt: 'Drag files here or click to browse', selected: 'Selected:', filesQueued: 'files queued', space: 'Space',
 			expiryLabel: 'Expiration time:', expiry2: '2 minutes', expiry5: '5 minutes', expiry10: '10 minutes',
@@ -38,7 +38,7 @@
 			download: 'Download file', noPreview: 'This format cannot be previewed here. Download it to open it safely.',
 			textTruncated: '[Preview shortened to protect browser performance.]',
 			disclaimerLink: 'Legal disclaimer', disclaimerTitle: 'Legal disclaimer',
-			disclaimerBody: '<p><strong>{app}</strong> is a browser-to-browser transport tool. File contents are not uploaded to or stored by this WordPress site.</p><p><strong>Malware notice:</strong> Direct transfers are not scanned by the site. Only accept files from people you trust, and scan downloaded files with appropriate security software.</p><p class="lionshare-attribution">Based on the original <a href="https://github.com/coffeetron832/Giraffile" target="_blank" rel="noopener noreferrer">Giraffile</a> project created by jahp / coffeetron832 and used under the MIT License.</p>',
+			disclaimerBody: '<p><strong>{app}</strong> is a browser-to-browser transport tool. File contents are not uploaded to or stored by the {app} app.</p><p><strong>Malware notice:</strong> Direct transfers are not scanned by the site. Only accept files from people you trust, and scan downloaded files with appropriate security software.</p><p class="lionshare-attribution">Based on the original <a href="https://github.com/coffeetron832/Giraffile" target="_blank" rel="noopener noreferrer">Giraffile</a> project created by jahp / coffeetron832 and used under the MIT License.</p>',
 			close: 'Close', footer: '{app} v{version} · Private files, directly shared.'
 		},
 		es: {
@@ -48,7 +48,7 @@
 			usesTitle: '¿Qué puedes compartir con {app}?',
 			use1: '<strong>Material confidencial:</strong> Contratos, documentos financieros, credenciales y archivos personales.',
 			use2: '<strong>Cualquier formato:</strong> Imágenes, PDF, archivos comprimidos, audio, video y varios archivos en un ZIP.',
-			use3: '<strong>Transferencia directa:</strong> Los bytes viajan P2P y WordPress no los almacena.',
+			use3: '<strong>Transferencia directa:</strong> Los bytes viajan P2P y {app} no los almacena.',
 			prepare: 'Prepara tus archivos para enviar', dropLabel: 'Arrastra archivos aquí o selecciónalos (máximo 1.5 GB):',
 			dropPrompt: 'Arrastra archivos aquí o haz clic para buscar', selected: 'Seleccionado:', filesQueued: 'archivos en cola', space: 'Espacio',
 			expiryLabel: 'Tiempo de caducidad:', expiry2: '2 minutos', expiry5: '5 minutos', expiry10: '10 minutos',
@@ -68,7 +68,7 @@
 			download: 'Descargar archivo', noPreview: 'Este formato no se puede previsualizar aquí. Descárgalo para abrirlo de forma segura.',
 			textTruncated: '[Vista previa acortada para proteger el rendimiento del navegador.]',
 			disclaimerLink: 'Aviso legal', disclaimerTitle: 'Aviso legal',
-			disclaimerBody: '<p><strong>{app}</strong> es una herramienta de transporte directo entre navegadores. Este sitio WordPress no carga ni almacena el contenido de los archivos.</p><p><strong>Aviso sobre malware:</strong> El sitio no analiza las transferencias directas. Acepta archivos solo de personas de confianza y usa un programa de seguridad apropiado.</p><p class="lionshare-attribution">Basado en el proyecto original <a href="https://github.com/coffeetron832/Giraffile" target="_blank" rel="noopener noreferrer">Giraffile</a>, creado por jahp / coffeetron832 y utilizado bajo la Licencia MIT.</p>',
+			disclaimerBody: '<p><strong>{app}</strong> es una herramienta de transporte directo entre navegadores. Este {app} app no carga ni almacena el contenido de los archivos.</p><p><strong>Aviso sobre malware:</strong> El sitio no analiza las transferencias directas. Acepta archivos solo de personas de confianza y usa un programa de seguridad apropiado.</p><p class="lionshare-attribution">Basado en el proyecto original <a href="https://github.com/coffeetron832/Giraffile" target="_blank" rel="noopener noreferrer">Giraffile</a>, creado por jahp / coffeetron832 y utilizado bajo la Licencia MIT.</p>',
 			close: 'Cerrar', footer: '{app} v{version} · Archivos privados, compartidos directamente.'
 		}
 	};
