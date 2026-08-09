@@ -15,7 +15,7 @@ LionShare is a privacy-first WordPress file-sharing utility that transfers files
 - English and Spanish interfaces
 - Light and dark themes
 - White-label app title, logo, app icon, and favicon
-- Brizy-compatible responsive layout that respects builder boundaries
+- Builder-compatible responsive layout that respects builder boundaries (tested on Gutenberg and Brizy builders)
 - Locally bundled JavaScript dependencies with no front-end CDN requirement
 
 ## Requirements
@@ -55,13 +55,13 @@ The sender must keep the LionShare page open until the recipient finishes receiv
 4. Activate the plugin from **WordPress → Plugins**.
 5. Add `[lionshare]` to a WordPress page.
 
-## Brizy Builder setup
+## Web Builder setup
 
-1. Add a Brizy **Shortcode** element to the page.
+1. Add a **Shortcode** element to the page.
 2. Enter `[lionshare]` as the shortcode.
-3. Set the Brizy section, row, or column width to the size you want LionShare to occupy.
+3. Set the builder section, row, or column width to the size you want LionShare to occupy.
 
-LionShare fills 100% of its immediate Brizy parent without breaking outside the builder container. For a wider app, adjust the containing Brizy section or row rather than adding viewport-width CSS to the plugin.
+LionShare fills 100% of its immediate builder parent without breaking outside the builder container. For a wider app, adjust the containing builder section or row rather than adding viewport-width CSS to the plugin.
 
 ## White-label settings
 
