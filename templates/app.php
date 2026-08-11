@@ -66,6 +66,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 
 	<footer class="lionshare-footer">
+		<div class="footer-donate">
+			<a class="bmc-btn" href="https://buymeacoffee.com/thelittleflea" target="_blank" rel="noopener noreferrer">
+				☕ Buy Me a Coffee
+			</a>
+			<a class="paypal-btn" href="https://www.paypal.com/donate/?business=payments@nucleardynamics.com" target="_blank" rel="noopener noreferrer">
+				💳 Donate via PayPal
+			</a>
+		</div>
 		<span data-ls-footer></span>
 		<button class="lionshare-link-button" type="button" data-ls-action="disclaimer" data-ls-text="disclaimerLink">Legal disclaimer</button>
 	</footer>
